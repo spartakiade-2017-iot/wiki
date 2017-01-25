@@ -1,0 +1,9 @@
+wiki:
+  container_name: "wiki"
+  image: node:6-alpine
+  ports:
+    - 80:9999
+  working_dir: /app/data
+  volumes:
+    - .:/app
+  command: node ../node_modules/nodewiki/nodewiki.js -p 9999
