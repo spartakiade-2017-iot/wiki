@@ -1,3 +1,4 @@
+<!--META {"title":"Glossar","tags":["sonstiges"],"createDate":1486073349195,"updateDate":1486073349195} -->
 # GND
 * Ground
 * Signalmasse. Die Signalspannungen werden gegen diese Leitung gemessen.

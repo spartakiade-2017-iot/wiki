@@ -1,9 +1,9 @@
 wiki:
   container_name: "wiki"
-  image: node:6-alpine
+  image: oliverlorenz/hazel:latest
   ports:
-    - 80:9999
-  working_dir: /app/data
+    - 8000:8000
+  user: root
   volumes:
-    - .:/app
-  command: node ../node_modules/nodewiki/nodewiki.js -p 9999
+    - ./data:/var/hazel
+    - ./config.default.js:/Hazel/example/config.default.js

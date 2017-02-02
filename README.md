@@ -1,4 +1,4 @@
-# Spartakiade 2017 - IoT Workshop
+# Spartakiade 2017 - IoT Workshop Wiki
 
 # Starten
 
@@ -8,4 +8,4 @@
 
 # Benutzen
 
-http://localhost
+http://localhost:8000
