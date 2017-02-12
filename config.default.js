@@ -10,20 +10,35 @@ var config = {
     // that have a matching tag. Clicking the section link will list the documents.
     site_sections: [
         {
-            'title': 'Software',
-            'description': 'Alles was mit Software zu tun hat',
-            'tag': 'software'
-        },
-        {
             'title': 'Hardware',
-            'description': 'Alles was mit Hardware zu tun hat',
+            'description': 'Alles, was mit Hardware zu tun hat',
             'tag': 'hardware'
         },
         {
+            'title': 'Software',
+            'description': 'Alles, was mit Software zu tun hat',
+            'tag': 'software'
+        },
+        {
             'title': 'Sonstiges',
-            'description': '',
+            'description': 'Allgemeines zu IoT',
             'tag': 'sonstiges'
-        }
+        },
+        {
+            'title': 'IoT Workshop Preparation',
+            'description': 'Alles zur Vorbereitung des Workshops',
+            'tag': 'preparation'
+        },
+        {
+            'title': 'IoT Workshop Introduction',
+            'description': 'Alles zum Umgang mit unserem IoT Workshop Equipment',
+            'tag': 'introduction'
+        },
+        {
+            'title': 'IoT Workshop Showcase',
+            'description': 'Alles zu unserem eigentlichen Showcase-Inhalt',
+            'tag': 'showcase'
+        },
     ],
 
     // Excerpt length (used in search)

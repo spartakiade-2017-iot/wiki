@@ -6,4 +6,5 @@ wiki:
   user: root
   volumes:
     - ./data:/var/hazel
-    - ./config.default.js:/Hazel/example/config.default.js
+    - ./:/Hazel/example    
+#    - ./config.default.js:/Hazel/example/config.default.js

@@ -1,2 +1,2 @@
-<!--META {"title":"MQTT","tags":["mqtt","software","protokoll"],"createDate":1486073776239,"updateDate":1486073776239} -->
+<!--META {"title":"MQTT","tags":["mqtt","software"],"createDate":null,"updateDate":1486907654827} -->
 leer
