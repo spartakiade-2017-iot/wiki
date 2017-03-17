@@ -1,2 +1,2 @@
-<!--META {"title":"Seeed Studio","tags":["hardware"],"createDate":1486909732172,"updateDate":1486909732172} -->
-.
+<!--META {"title":"Seeed Studio","tags":["hardware"],"createDate":null,"updateDate":1489764372585} -->
+Seeed Studio ist eines der weltweit führenden Open-Source-Hardware-Unternehmen. Sie kickstarteten unter Anderem das Projekt Wio Node und Wio Link als Alternative zum klassischen Lötansatz in der IoT-Welt.
