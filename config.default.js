@@ -10,6 +10,21 @@ var config = {
     // that have a matching tag. Clicking the section link will list the documents.
     site_sections: [
         {
+            'title': 'IoT Workshop Preparation',
+            'description': 'Alles zur Vorbereitung des Workshops',
+            'tag': 'preparation'
+        },
+        {
+            'title': 'IoT Workshop Introduction',
+            'description': 'Alles zum Umgang mit unserem IoT Workshop Equipment',
+            'tag': 'introduction'
+        },
+        {
+            'title': 'IoT Workshop Showcase Collection',
+            'description': 'Alles zu unserem eigentlichen Showcase-Inhalt',
+            'tag': 'showcase'
+        },
+        {
             'title': 'Hardware',
             'description': 'Alles, was mit Hardware zu tun hat',
             'tag': 'hardware'
@@ -23,22 +38,7 @@ var config = {
             'title': 'Sonstiges',
             'description': 'Allgemeines zu IoT',
             'tag': 'sonstiges'
-        },
-        {
-            'title': 'IoT Workshop Preparation',
-            'description': 'Alles zur Vorbereitung des Workshops',
-            'tag': 'preparation'
-        },
-        {
-            'title': 'IoT Workshop Introduction',
-            'description': 'Alles zum Umgang mit unserem IoT Workshop Equipment',
-            'tag': 'introduction'
-        },
-        {
-            'title': 'IoT Workshop Showcase',
-            'description': 'Alles zu unserem eigentlichen Showcase-Inhalt',
-            'tag': 'showcase'
-        },
+        }
     ],
 
     // Excerpt length (used in search)
@@ -48,13 +48,13 @@ var config = {
     base: '/',
 
     // Path in which to store content (markdown files, etc.)
-    content_dir: "/var/hazel/content/",
+    content_dir: "data/content/",
 
     // Path in which to store uploads (images etc.)
-    uploads_dir: "/var/hazel/uploads/",
+    uploads_dir: "data/uploads/",
 
     // Path in which to store data (analytics, etc.)
-    data_dir: "/var/hazel/data/",
+    data_dir: "data/data/",
 
     // Secret key used to sync two servers
     sync_key: "",
