@@ -1,4 +1,4 @@
-<!--META {"title":"Philips Hue","tags":["hardware","introduction"],"createDate":null,"updateDate":1486913126969} -->
+<!--META {"title":"Philips Hue","tags":["hardware","introduction"],"createDate":null,"updateDate":1489753467086} -->
 .Die Hues sind iotifizierte Lampen der Firma Philips, welche via Funk gesteuert werden können.
 Das Steuern umfasst sowohl die Möglichkeit, sie an/aus zu schalten, als auch ihre Farbe und Intensität zu ändern.
 
@@ -21,6 +21,7 @@ Via http://[bridgeip]/api/bUGIwMHwOPzXVItpqnCgnpJF1gLVTKIVZ6CAjwu-/lights/1/stat
 
 Zur Programmierung kann man ein einfachstes Python Skript schreiben wie bspw.
 
+<pre>
   import requests
   import json
   
@@ -30,5 +31,6 @@ Zur Programmierung kann man ein einfachstes Python Skript schreiben wie bspw.
   data_off = {"on":False}
   
   r = requests.put(url, json.dumps(data_on), timeout=5)
+</pre>
 
 Die komplette API Description ist verfügbar unter https://developers.meethue.com/philips-hue-api 

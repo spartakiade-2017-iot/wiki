@@ -1,0 +1,2 @@
+<!--META {"title":"Beispiel-Sketch","tags":["showcase"],"createDate":1489755053171,"updateDate":1489755053171} -->
+Hier stellen wir Euch den Basiscode für die ESP-Programmierung mittels ArduinoIDE bereit

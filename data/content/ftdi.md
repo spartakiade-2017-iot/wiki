@@ -1,2 +1,5 @@
-<!--META {"title":"FTDI","tags":["hardware"],"createDate":1486909797529,"updateDate":1486909797529} -->
-.
+<!--META {"title":"FTDI","tags":["hardware"],"createDate":null,"updateDate":1489763880725} -->
+
+Häufig haben Microcontroller zwar einen (Micro)USB-Anschluss, der aber dafür gedacht ist, das Gerät über eine externe Stromquelle mit Strom zu versorgen. Um einen Microcontroller zu programmieren und eine neue Software (Firmware) aufzuspielen, muss deswegen ein anderer Weg gewählt werden. 
+
+Eine OTA (Over the Air) Aktualisierung via WLAN o.ä. wird meist nicht gemacht. Stattdessen wird in der Regel hierfür eine serielle Verbindung über einen UART-Anschluss genutzt. Um eine Verbindung mit einem PC herstellen zu können, wird ein Adapter benötigt, der auf der einen Seite serielle Signale verarbeiten kann, auf der anderen Seite aber einen normalen USB-Anschluss bereitstellt. Dieses Ding wird FTDI-Adapter genannt.
