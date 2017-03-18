@@ -1,4 +1,4 @@
-<!--META {"title":"Philips Hue","tags":["hardware","introduction"],"createDate":null,"updateDate":1489753467086} -->
+<!--META {"title":"Philips Hue","tags":["hardware","introduction"],"createDate":null,"updateDate":1489778760803} -->
 .Die Hues sind iotifizierte Lampen der Firma Philips, welche via Funk gesteuert werden können.
 Das Steuern umfasst sowohl die Möglichkeit, sie an/aus zu schalten, als auch ihre Farbe und Intensität zu ändern.
 

@@ -1,2 +1,3 @@
-<!--META {"title":"VSCode","tags":["software"],"createDate":1486909678456,"updateDate":1486909678456} -->
-.
+<!--META {"title":"VSCode","tags":["software"],"createDate":null,"updateDate":1489818035821} -->
+.Visual Studio Code, kurz auch VS Code, ist ein Quelltext-Editor von Microsoft. Er dient vorrangig der Entwicklung von Webanwendungen 
+Es handelt sich um einen kostenlosen und quelloffenen Texteditor, der plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar ist. Bis auf den Namen und einigen Funktionen wie IntelliSense hat VS Code nichts mit Visual Studio gemeinsam. VS Code basiert technologisch auf Electron (Framework) und ermöglicht auch Debugging, IntelliSense und Versionsverwaltung. Im Unterschied zu Visual Studio arbeitet VS Code nicht mit Projektdateien, sondern auf Basis von Codedateien und Ordnern.
